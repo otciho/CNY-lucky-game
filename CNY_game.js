@@ -34,14 +34,14 @@ const rewards = [
 
 // No-reward lines (no repeats within a round)
 const NO_REWARD_LINES = [
-  "No luck points… but you’ve got my virtual kisses 💋💖",
+  "No luck points… only my virtual kisses 💋💖",
   "Empty envelope… full affection 😘",
-  "No reward—just vibes and a kiss for luck 💞✨",
+  "Just vibes and a kiss for luck 💞✨",
   "No luck today—come here 💋",
   "Nothing… but I like you 💗",
-  "No reward. Just me blowing you a kiss ✨💖",
-  "Robbed! (of luck) … compensated with hugs 🤗",
-  "The spirits say: kisses today, luck tomorrow 💋",
+  "Just me blowing you a kiss ✨💖",
+  "Robbed!… compensated with hugs 🤗",
+  "hugs today, luck tomorrow 🤗",
 ];
 
 let opensLeft = 3;
