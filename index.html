@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lunar Envelope Luck 🧧 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CNY_game.css" />
+</head>
+<body>
+    <div class="confetti" hidden aria-hidden="true"></div>
+    <main class="app">
+        <header class="top">
+            <h1>Pick 3 Red Envelopes 🧧 </h1>
+            <p class="sub">Some of them behave... suspiciously 😏</p>
+            <div class="stats">
+            <div class="pill">Opens left: <span class="js-opens-left">3</span></div>
+            <div class="pill">Luck points: <span class="js-luck">0</span></div>
+            </div>
+        </header>
+        <section class="grid js-grid" aria-label="Red envelopes grid">
+        </section>
+        <section class="panel">
+        <div class="message js-message">Tap an envelope to start ✨</div>
+        <button class="btn replay js-replay" type="button" hidden>Replay 🔁</button>
+        </section>
+
+    </main>
+    <div class="horse" hidden>🐎</div>
+    <div class="reveal-overlay" hidden aria-hidden="true"></div>
+    <script src="CNY_game.js"></script>
+
+
+</body>
+
+</html>
